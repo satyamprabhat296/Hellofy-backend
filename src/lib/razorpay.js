@@ -9,4 +9,8 @@ export const getRazorpayInstance = () => {
     key_id: process.env.RAZORPAY_KEY_ID,
     key_secret: process.env.RAZORPAY_KEY_SECRET,
   });
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 5a2c20c31d8bae025e7bf64cf37fc1e9ddb302a4

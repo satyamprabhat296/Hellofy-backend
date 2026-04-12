@@ -46,6 +46,13 @@ app.use("/api/admin", adminRoutes);
 // ================================
 // ✅ CODE EXECUTION ROUTE
 // ================================
+
+app.get("/", (req, res) => {
+  res.json({
+    message: "Hellofy API is running 🚀",
+    status: "success"
+  });
+});
 app.post("/api/run-code", async (req, res) => {
   try {
     const { language, files } = req.body;
