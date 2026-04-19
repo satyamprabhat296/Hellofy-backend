@@ -1,5 +1,6 @@
 import express from "express";
 import crypto from "crypto";
+// import razorpay from "../lib/razorpay.js";
 import { getRazorpayInstance } from "../lib/razorpay.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
 import User from "../models/User.js";
